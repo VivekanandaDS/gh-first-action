@@ -1,0 +1,15 @@
+
+name: First Workflow
+on: worflow_dispatch           #Events that should be run
+#This paticular event is used to manually start the worflow by user
+
+jobs:
+  first-job:    #Job Name
+    runs-on: ubuntu-latest  #Runner which job will runs on   #Reserved name
+    steps:                #Reserved name
+      - name: Print Greeting
+        run: echo "Hello World"
+      - name: Print Good Bye
+        run: echo "Done-Bye"
+
+
