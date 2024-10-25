@@ -1,6 +1,6 @@
 
 name: First Workflow
-on: worflow_dispatch           #Events that should be run
+on: workflow_dispatch           #Events that should be run
 #This paticular event is used to manually start the worflow by user
 
 jobs:
