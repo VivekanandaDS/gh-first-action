@@ -11,8 +11,8 @@ jobs:
         run: echo "Hello World"
       - name: Calculation
         run: |               #Pipe Symbol(|) is used to run multiple shell commands
-            x= expr 2+1
-            echo x
+            expr 2+1
+            echo "result is displayed"
             echo "the result is $x"
       - name: Print Good Bye
         run: echo "Done-Bye"
