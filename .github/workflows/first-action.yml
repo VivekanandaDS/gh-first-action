@@ -9,6 +9,11 @@ jobs:
     steps:                #Reserved name
       - name: Print Greeting
         run: echo "Hello World"
+      - name: Calculation
+        run: |               #Pipe Symbol(|) is used to run multiple shell commands
+            x=2+1
+            echo x
+            echo "the result is $x"
       - name: Print Good Bye
         run: echo "Done-Bye"
 
